@@ -459,3 +459,12 @@ Home Page
 - Exporting history
 - Comparing multiple Gyms on the same graph
 - Leaderboards
+
+
+# Bug fixes or changes required
+
+- Speed graph should use  Correct Answers Per Minute instead of total session   time
+Correct Answers Per Minute Calculation:
+(correctAnswers × 60) / timeTakenSeconds
+Higher values indicate faster performance.
+Display values rounded to 1 decimal place.
