@@ -1,5 +1,6 @@
 # Feature Specification: User Progress Tracking
 
+Phase 1: Bringing up basic functionality [Done]
 ## Objective
 
 Add a feature that allows users to track their speed and accuracy over time across selected Gym applications.
@@ -468,3 +469,14 @@ Correct Answers Per Minute Calculation:
 (correctAnswers × 60) / timeTakenSeconds
 Higher values indicate faster performance.
 Display values rounded to 1 decimal place.
+--------------------------------------------------------------------------------------------
+
+Phase 2: Bug fixes and improvements [ In progress]
+
+3/6/26
+List of fixes required:
+1. The logged-in menu branch only renders Logout, so Track Progress option is never shown for signed-in users. Add track progress option in the  logged-in menu.
+2. The ProgressTrackerApp uses Recharts components but App.jsx never imported ResponsiveContainer or chart primitives. Fix that by adding required imports.
+
+------------------------------------------------------------------------------------------------------
+
