@@ -7,10 +7,19 @@ List of MD files
 3. general_bug_fixes.md
 4. feature_improvements.md
 
+-------------------------------------------------------------------------------------------------------------
+Preferred Order to be used for feeding MD files
+
+| S.No | Date       | Filename                  | Section Name                             | Status      | GitHub Tag |
+|------|------------|---------------------------|------------------------------------------|-------------|------------|
+| 1    | 01-06-2026 | user_progress_tracking.md | Phase 1: Bringing up basic functionality | Merged      |            |
+| 2    | 03-06-2026 | general_bug_fixes.md      | Bug fix 1                                | In progress |            |
+| 3    | 03-06-2026 | user_progress_tracking.md | Phase 2: Bug fixes and improvements      | In progress |            |
+| 4    | 04-06-2026 | feature_improvements.md   | Improvement #1 4/6/26                    | Not started |            |
+| 5    | 04-06-2026 | feature_improvements.md   | Improvements #2 4/6/26                   | Not started | v1_6       |
 
 
-
-
+-------------------------------------------------------------------------------------------------------------
 Descriptions
 1. user_progress_tracking.md :
 Add a feature that allows users to track their speed and accuracy over time across selected Gym applications.
