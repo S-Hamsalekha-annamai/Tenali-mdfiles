@@ -4,7 +4,9 @@ Repo for MD files created for feature additions to Tenali app
 List of MD files
 1. user_progress_tracking.md
 2. debug_global_quiz_export.md
-3. general_bug_fixes
+3. general_bug_fixes.md
+4. feature_improvements.md
+
 
 
 
@@ -21,3 +23,6 @@ This is a debug feature. Add a lightweight, quiz questions export feature across
 
 3.general_bug_fixes.md
 Running list of bug fixes required.
+
+4. feature_improvements.md
+Running list of improvements required for existing features.
