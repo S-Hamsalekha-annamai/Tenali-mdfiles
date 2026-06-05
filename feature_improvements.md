@@ -49,3 +49,20 @@ PercentApp : Update the labels displayed on UI to reflect the new changes
 
    In the adaptive mode
    Rotate the questions across 5 types based on question index.
+
+
+# Improvements #3 5/6/26
+   SqrtApp : Add two more question types in the same quiz
+
+1. SqrtApp : Send the question number to the server using req.query.q
+2. In /sqrt-api/question,  Add two more question types 
+Type 1  : Find the square root of the number X ( cieling or floor accepted) (Existing question)
+Type 2  : Find the square root of a perfect square X (Hint : Heard of  prime factorization ?) (new)
+Type 3  : Find a number when multiplied with X , makes X a perfect square. (new)
+3. Based on question number , rotate across all three types.
+4. Add this to all the modes(easy , medium , hard , extrahard)
+5. In the case of type 2 , make sure the number is a perfect square. After you obtain the number , take the squareroot 
+and then square it again. that makes it a perfect square.
+6. In the case of type 3, make sure the number is neither perfect square nor prime.
+7. Modify prompt of the question based on the type. Use prompts mentioned above.
+8. Update the font size to match with other sections  while displaying prompts.
