@@ -19,6 +19,8 @@ Preferred Order to be used for feeding MD files
 | 5    | 04-06-2026 | feature_improvements.md   | Improvements #2 4/6/26                   | Not started | v1_6       |
 | 6    | 05-06-2026 | feature_improvements.md   | Improvements #3 5/6/26                   | Not started |            |
 | 7    | 12-06-2026 | general_bug_fixes.md      | Bug fix 2                                | Not started |  v1_7      |
+| 8    | 12-06-2026 | feature_improvements.md   | Improvements #4 12/6/26                  | Not started |  v1_8      |
+| 9    | 12-06-2026 | feature_improvements.md   | Improvements #5 12/6/26                  | Not started |  v1_8      |
 
 
 -------------------------------------------------------------------------------------------------------------

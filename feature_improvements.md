@@ -68,3 +68,19 @@ and then square it again. that makes it a perfect square.
 8. Update the font size to match with other sections  while displaying prompts.
 
 
+# Improvements #4 12/6/26
+   SqrtApp : Ensure questions dont repeat
+
+1. Modify /sqrt-api/question, to generate a question ID for every question. This ID should be based on final number ${q} used in the question .
+   Use generatePercentQuestion as  reference to see how question ID can be generated. Send this to the client along with the question.
+2. At the client side, maintain a list of  all the question ID's received. Keep the apis and the logic similar to  that in function  '/percent-api/question . 
+3. Use the req.query.seen parameter to send the list of seen qids to the server along with question api.
+4.  At the server side,in /sqrt-api/question , After every question is generated , make sure its not repeated by checking against the list previous questions ID's 
+given by the client (upto 50). Use /percent-api/question as reference.
+5. In '/sqrt-api/question', Modify the prompt in Type 3  to "`Which is the smallest number to be multiplied with ${q} to make it a perfect square`"
+6. In '/sqrt-api/question' , for questions of type 3 , add another check to ensure the number in question has repeated prime factors.
+
+
+# Improvements #5 12/6/26
+SqrtApp : Make the UI keyboard friendly
+1.In the SqrtApp (App.jsx), Update the UI so that the Solution box automatically receives focus whenever a question is displayed. Users should be able to start typing their answer immediately without needing to click inside the input field.
