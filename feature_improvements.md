@@ -66,3 +66,5 @@ and then square it again. that makes it a perfect square.
 6. In the case of type 3, make sure the number is neither perfect square nor prime.
 7. Modify prompt of the question based on the type. Use prompts mentioned above.
 8. Update the font size to match with other sections  while displaying prompts.
+
+

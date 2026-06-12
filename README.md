@@ -17,6 +17,8 @@ Preferred Order to be used for feeding MD files
 | 3    | 03-06-2026 | user_progress_tracking.md | Phase 2: Bug fixes and improvements      | In progress |            |
 | 4    | 04-06-2026 | feature_improvements.md   | Improvement #1 4/6/26                    | Not started |            |
 | 5    | 04-06-2026 | feature_improvements.md   | Improvements #2 4/6/26                   | Not started | v1_6       |
+| 6    | 05-06-2026 | feature_improvements.md   | Improvements #3 5/6/26                   | Not started |            |
+| 7    | 12-06-2026 | general_bug_fixes.md      | Bug fix 2                                | Not started |  v1_7      |
 
 
 -------------------------------------------------------------------------------------------------------------
