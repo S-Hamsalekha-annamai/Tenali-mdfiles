@@ -8,7 +8,7 @@ List of MD files
 4. feature_improvements.md
 
 -------------------------------------------------------------------------------------------------------------
-Preferred Order to be used for feeding MD files
+Preferred Order to be used for feeding MD files(Expand editor to see every line completely, avoid wrapping)
 
 | S.No | Date       | Filename                  | Section Name                             | Status      | GitHub Tag |
 |------|------------|---------------------------|------------------------------------------|-------------|------------|
@@ -22,6 +22,7 @@ Preferred Order to be used for feeding MD files
 | 8    | 12-06-2026 | feature_improvements.md   | Improvements #4 12/6/26                  | Not started |  v1_8      |
 | 9    | 12-06-2026 | feature_improvements.md   | Improvements #5 12/6/26                  | Not started |  v1_8      |
 | 10   | 15-06-2026 | feature_improvements.md   | Improvements #6 15/6/26                  | Not started |  v1_9      |
+| 11   | 16-06-2026 | feature_improvements.md   | Improvements #7 16/6/26                  | Not started |  v1_10     |
 
 
 -------------------------------------------------------------------------------------------------------------

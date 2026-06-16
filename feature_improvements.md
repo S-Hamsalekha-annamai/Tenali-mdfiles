@@ -95,3 +95,8 @@ SqrtApp : Customize questions based on User's knowledge level
   Modify the UI to add another dropdown saying " I know squares of all number untill ?". "Lets call this squares_untill"
 3.Use  only squares_untill param to cap the radicand in type 1 and type 2. Dont use tables_untill for type 1 and type 2.
 4.In type 3, make sure the number has atleast one of its prime factors to be less than tables_untill. This will enable the user to solve the problem using prime factorization.
+
+
+# Improvements #7 16/6/26
+AdditionApp : Make the UI keyboard friendly
+1.In the AdditionApp (App.jsx), Update the UI so that the Solution box automatically receives focus whenever a question is displayed. Users should be able to start typing their answer immediately without needing to click inside the input field.
