@@ -84,3 +84,14 @@ given by the client (upto 50). Use /percent-api/question as reference.
 # Improvements #5 12/6/26
 SqrtApp : Make the UI keyboard friendly
 1.In the SqrtApp (App.jsx), Update the UI so that the Solution box automatically receives focus whenever a question is displayed. Users should be able to start typing their answer immediately without needing to click inside the input field.
+
+
+
+# Improvements #6 15/6/26
+SqrtApp : Customize questions based on User's knowledge level
+1.In the SqrtApp (App.jsx), Add support for taking a user input about multiplication tables known to the user.
+  Modify the UI to add a dropdown saying " I know multiplication tables untill ?". Lets call this tables_untill
+2.In the SqrtApp (App.jsx), Add support for taking user input about squares of numbers known.        
+  Modify the UI to add another dropdown saying " I know squares of all number untill ?". "Lets call this squares_untill"
+3.Use  only squares_untill param to cap the radicand in type 1 and type 2. Dont use tables_untill for type 1 and type 2.
+4.In type 3, make sure the number has atleast one of its prime factors to be less than tables_untill. This will enable the user to solve the problem using prime factorization.
