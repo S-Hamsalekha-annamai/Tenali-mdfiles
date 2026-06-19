@@ -23,6 +23,7 @@ Preferred Order to be used for feeding MD files(Expand editor to see every line 
 | 9    | 12-06-2026 | feature_improvements.md   | Improvements #5 12/6/26                  | Not started |  v1_8      |
 | 10   | 15-06-2026 | feature_improvements.md   | Improvements #6 15/6/26                  | Not started |  v1_9      |
 | 11   | 16-06-2026 | feature_improvements.md   | Improvements #7 16/6/26                  | Not started |  v1_10     |
+| 12   | 19-06-2026 | feature_improvements.md   | Improvements #8 19/6/26                  | Not started |  v1_11     |
 
 
 -------------------------------------------------------------------------------------------------------------

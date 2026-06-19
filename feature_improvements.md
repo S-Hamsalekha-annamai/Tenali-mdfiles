@@ -100,3 +100,8 @@ SqrtApp : Customize questions based on User's knowledge level
 # Improvements #7 16/6/26
 AdditionApp : Make the UI keyboard friendly
 1.In the AdditionApp (App.jsx), Update the UI so that the Solution box automatically receives focus whenever a question is displayed. Users should be able to start typing their answer immediately without needing to click inside the input field.
+
+
+# Improvements #8 19/6/26
+Update User progress tracking feature with more quiz
+1. Update the user progress trcking feature with support to include SqrtApp along with th extsiting gyms. You can need to refer to following functions. SUPPORTED_GYMS , ProgressTrackerApp , saveGymResult. Add "square root" to SUPPORTED_GYMS and update SqrtApp to call saveGymResult with gym name as "square root" , after every quiz is completed.
