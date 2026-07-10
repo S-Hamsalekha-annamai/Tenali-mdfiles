@@ -105,3 +105,27 @@ AdditionApp : Make the UI keyboard friendly
 # Improvements #8 19/6/26
 Update User progress tracking feature with more quiz
 1. Update the user progress trcking feature with support to include SqrtApp along with th extsiting gyms. You can need to refer to following functions. SUPPORTED_GYMS , ProgressTrackerApp , saveGymResult. Add "square root" to SUPPORTED_GYMS and update SqrtApp to call saveGymResult with gym name as "square root" , after every quiz is completed.
+
+# Improvements #9 24/6/26
+Update RoundingApp (app.jsx) rounding-api/question(index.js) to include another set of questions
+1. Update makeQuizApp to send the question number to backend in the generate question API.
+2. Update rounding-api/question(index.js) as below
+      Modify if else under "medium" to work as below
+      [x]Two type of questions are generated . First type is rounding given the number of significant figures. Second type is rounding to nearest neighbor 10s,100's,1000's,10000'.
+      Alternate between these two types based on question number stored in the variable "qIdx"
+      [x] For question numbers less than 5 (qidx<5) stick to numbers less than 1000.  5 <qidx <10  use numbers less than ,10000 . qidx >10 use  5 digit numbers.
+      [x] Choose number of significant figures and nearest neighbors based on the number. The number itself,  number of significant figures  and nearest neighbors( 10s,100's,1000's,10000's.)
+         all of them need to be generated randomly
+      [x] Populate the variables answer and prompt accordingly.
+
+
+
+# Improvements #10 02/07/26
+Update FracAddGymApp to suppport subtraction, multiplication and division
+1. Modify  makeMCQuizApp to support sending the question number /question index  to `${API}/${apiPath}/question API (refer to how this is done in makeQuizApp)
+2. Accept question index (qIdx)  at the corresponding backend api function. 
+3. Modify fracaddgymQuestion(difficulty) to use the qidx to rotate the operate between  add / sub / multiply / divide as below
+   question 1 -> Add
+   Question 2 -> Subtract
+   Question 3 -> randomly choose between multiply or divide.   
+    and so on....
